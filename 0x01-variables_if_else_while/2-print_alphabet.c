@@ -1,24 +1,18 @@
-
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Determines either greater than 5, is less than 6, or is 0
- *
- * Return: Always 0 (Success)
+ * main - returns alphabelts
+ * Return: returns 0 (successful)
  */
-
-void lowercaseAlphabets()
+int main(void)
 {
-	
-	for (int c = 97; c <= 122; ++c)
-		printf("%c ", c);
-	printf("\n");
-}
+	int alph = 'a';
 
-
-int main()
-{
-	printf("Lowercase Alphabets\n");
-	lowercaseAlphabets();
-
-	return 0;
+	while (alph <= 'z')
+	{
+		putchar(alph);
+		alph++;
+	}
+	putchar('\n');
+	return (0);
 }

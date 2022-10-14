@@ -1,17 +1,20 @@
-// C program to print alphabets
-#include <stdio.h>
 
-// Function to print the alphabet
-// in lower case
+#include <stdio.h>
+/**
+ * main - Determines either greater than 5, is less than 6, or is 0
+ *
+ * Return: Always 0 (Success)
+ */
+
 void lowercaseAlphabets()
 {
-	// for lowercase
+	
 	for (int c = 97; c <= 122; ++c)
 		printf("%c ", c);
 	printf("\n");
 }
 
-// Driver program
+
 int main()
 {
 	printf("Lowercase Alphabets\n");

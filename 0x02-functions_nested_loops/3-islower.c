@@ -1,15 +1,14 @@
 #include "main.h"
+
 /**
- * _isalpha-check if character is lowercase or uppercase
- * @c:character to check if it islowercase.
- * Return:1-if lowercase/uppercase,0-if not.
+ * _islower - prints the alphabets in lower cas
+ * @alpha: number or an alphabet
+ * Return: returns 0 if successful or 1 if otherwise
  */
 
-
-
-int _isalpha(int c)
+	int _islower(int alpha)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (alpha >= 'a' && alpha  <= 'z')
 	{
 		return (1);
 	}

@@ -1,19 +1,15 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - main fuction generate a random number
- * Return: return 0(successful)
- */
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
 
-int main(void)
-
+	int main(void)
 {
-	int n;
+	int i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	i = 98;
+	positive_or_negative(i);
 	return (0);
 }

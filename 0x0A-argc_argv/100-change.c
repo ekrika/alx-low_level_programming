@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdio.h>
-
+#include <stdlib.h>
+#include "main.h"
 /**
  *main -prints the minimum numb of coins to make change for an amount of money.
  * @argc: number of command line arguments.
@@ -31,10 +31,10 @@ while (cents > 0)
 		cents -= 2;
 	else if (cents >= 1)
 		cents -= 1;
-	nCoints += 1;
+	nCoins += 1;
 }
 
-printf("%d\n", nCoins)
+printf("%d\n", nCoins);
 return (0);
 }
 
